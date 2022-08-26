@@ -12,7 +12,7 @@ import java.util.UUID;
 @Scope(value = "request", proxyMode = ScopedProxyMode.TARGET_CLASS)
 //대상에 따라 mode를 다르게 해주면 된다.
 // 가짜 프록시 클래스를 만들어서 주입시켜준다. provider 주입 시키듯 가짜를 주입
-//프록시든 provider든 진짜 객체 조회를
+
 public class MyLogger {
 
     private String uuid;
